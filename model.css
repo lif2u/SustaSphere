@@ -1,0 +1,63 @@
+.svgStyle
+{
+  fill:cornflowerblue;
+  fill-opacity:0.2;
+  stroke-width:2;
+  stroke-dasharray:5,5;
+  stroke:black;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('./content/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+.triangle
+{
+  fill:cornflowerblue;
+  stroke-width:1;
+  stroke:gray;
+}
+
+.hexagon
+{
+  fill:mint;
+  stroke-width:1;
+  stroke:gray;
+}
+
+.pentagon
+{
+  fill:#4dffdb;
+  stroke-width:1;
+  stroke:gray;
+}
+
+.big_pentagon
+{
+  fill:green;
+  stroke-width:1;
+  stroke:gray;
+}
+
+.line
+{
+  stroke-width:1;
+  stroke:gray;
+}
+
+.ui-tabs-panel {
+    height: 800;
+    width: auto;
+    overflow: auto;
+}
+    
+.ui-button-text-only .ui-button-text {
+    padding: 0.3em 1em;
+    width: 200px;
+}
